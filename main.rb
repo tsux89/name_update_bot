@@ -7,8 +7,8 @@ require 'pp'
 # Define ConsumerKey & Secret + AccessToken & Secret  
 ck = 'IQKbtAYlXLripLGPWd0HUA'
 cs = 'GgDYlkSvaPxGxC4X8liwpUoqKwwr3lCADbz8A7ADU'
-at = '973672668-pA0k7CNuzhBxmHCuC5zlYABL3e9w2LEWlVjMaOpS'
-ats = '0u1Ck9q8PQOamrI0zXGObwL25XMP1QMuTEQoW7Q'
+at = ''
+ats = ''
 
 
 # Verify to twitter
