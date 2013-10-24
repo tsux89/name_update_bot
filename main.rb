@@ -46,7 +46,7 @@ client.userstream do |status|
 
 
 
-	if str =~ /name_update/ && str.start_with?("@hoge ") then #hoge を自分のIDに
+	if str =~ /name_update/ && str.start_with?("@hoge ") then #　hoge を自分のIDに
 		
 		puts "requested"
 		
