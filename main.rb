@@ -4,7 +4,7 @@ require 'twitter'
 require 'tweetstream'
 require 'pp'
 
-# Define ConsumerKey & Secret + AccessToken & Secret  
+# Define ConsumerKey & Secret + AccessToken & Secret (Default: Twitter for iPhone)
 ck = 'IQKbtAYlXLripLGPWd0HUA'
 cs = 'GgDYlkSvaPxGxC4X8liwpUoqKwwr3lCADbz8A7ADU'
 at = ''
@@ -46,7 +46,7 @@ client.userstream do |status|
 
 
 
-	if str =~ /name_update/ && str.start_with?("@69 ") then
+	if str =~ /name_update/ && str.start_with?("@hoge ") then #hoge を自分のIDに
 		
 		puts "requested"
 		
